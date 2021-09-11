@@ -1,0 +1,25 @@
+$primary-cyan: hsl(176, 50%, 47%);
+$primary-dark-cyan:hsl(176, 72%, 28%);
+$neutral-black:hsl(0, 0%, 0%);
+$neutral-dark-gray:hsl(0, 0%, 48%);
+$debugin: false;
+@if $debugin {
+    * {
+        border: 1px solid red;
+    }
+}
+
+@font-face {
+    font-family: "commissioner-regular";
+    src: url("/fonts/Commissioner/static/Commissioner-Regular.ttf");
+}
+
+@font-face {
+    font-family: "commissioner-bold";
+    src: url("/fonts/Commissioner/static/Commissioner-Bold.ttf");
+}
+
+@font-face {
+    font-family: "commissioner-thin";
+    src: url("/fonts/Commissioner/static/Commissioner-Thin.ttf");
+}
